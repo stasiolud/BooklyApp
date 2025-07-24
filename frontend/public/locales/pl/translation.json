@@ -1,0 +1,419 @@
+{
+  "info": {
+    "hero": {
+      "title": "Bookly to Twoja przestrzeń do sprzedawania i kupowania z drugiej ręki",
+      "subtitle": "Jedna społeczność, tysiące książek i mnóstwo niepowtarzalnego stylu. Brzmi jak coś dla Ciebie? Sprawdź, jak to działa."
+    },
+    "sellSection": {
+      "title": "Sprzedawaj, po prostu",
+      "cta": "Zacznij sprzedawać"
+    },
+    "sellSteps": {
+      "step1": {
+        "title": "1. Dodawaj bez opłat",
+        "desc": "Pobierz aplikację Bookly za darmo. Zrób zdjęcia rzeczy, którą chcesz sprzedać, opisz ją i ustal cenę. Kliknij 'Dodaj' i gotowe!"
+      },
+      "step2": {
+        "title": "2. Sprzedaj, wyślij",
+        "desc": "Sprzedane! Spakuj przedmiot, wydrukuj opłaconą wcześniej etykietę wysyłkową i zanieś przesyłkę do punktu nadania."
+      },
+      "step3": {
+        "title": "3. Czas na wypłatę!",
+        "desc": "Zero opłat od sprzedaży – zatrzymujesz wszystko, co zarobisz."
+      }
+    },
+    "buySection": {
+      "title": "Kupuj pewnie i bezpiecznie",
+      "cta": "Zacznij zakupy"
+    },
+    "buySteps": {
+      "step1": {
+        "title": "1. Znajdź",
+        "desc": "Pobierz aplikację Bookly za darmo. Przeglądaj miliony niepowtarzalnych książek i tysiące gatunków. Wybieraj swoje perełki."
+      },
+      "step2": {
+        "title": "2. Kup",
+        "desc": "Kup książkę jednym kliknięciem. Zapłać bezpiecznie przez jedną z dostępnych opcji płatności."
+      },
+      "step3": {
+        "title": "3. Czytaj",
+        "desc": "Po opłaceniu zakupu otrzymasz szacowaną datę dotarcia przesyłki. Za kilka dni zakupiona książka trafi na Twoją półkę!"
+      }
+    }
+  },
+  "home": {
+    "banner": {
+      "title": "Czas na zmiany na półce?",
+      "primaryButton": {
+        "loggedIn": "Wystaw książkę",
+        "loggedOut": "Zarejestruj się"
+      },
+      "secondaryButton": "Sprawdź, jak to działa"
+    },
+    "promo": {
+      "new": {
+        "title": "NOWOŚĆ",
+        "subtitle": "Odkrywaj nowe książki każdego dnia",
+        "button": {
+          "loggedIn": "Wystaw teraz",
+          "loggedOut": "Zacznij teraz"
+        }
+      },
+      "browse": {
+        "title": "Szeroka gama tytułów",
+        "subtitle": "Wymieniaj książki z naszymi użytkownikami",
+        "button": "Przeglądaj ofertę"
+      }
+    },
+    "currency": "zł",
+    "availableBooks": "Dostępne książki",
+    "shippingSuffix": "zł z wysyłką"
+  },
+  "login": {
+    "title": "Logowanie",
+    "emailLabel": "Email",
+    "passwordLabel": "Hasło",
+    "submit": "Zaloguj",
+    "loading": "Logowanie…",
+    "noAccount": "Nie masz konta?",
+    "register": "Zarejestruj się"
+  },
+  "validation": {
+    "emailRequired": "Email jest wymagany",
+    "emailInvalid": "Podaj poprawny adres email",
+    "passwordRequired": "Hasło jest wymagane",
+    "passwordMin": "Hasło musi mieć co najmniej 6 znaków"
+  },
+  "error": {
+    "loginFailed": "Nie udało się zalogować",
+    "network": "Błąd sieci. Spróbuj ponownie."
+  },
+  "register": {
+    "title": "Rejestracja",
+    "firstNameLabel": "Imię",
+    "lastNameLabel": "Nazwisko",
+    "emailLabel": "Email",
+    "passwordLabel": "Hasło",
+    "confirmPasswordLabel": "Powtórz hasło",
+    "submit": "Zarejestruj się",
+    "loading": "Ładowanie...",
+    "haveAccount": "Masz już konto?",
+    "login": "Zaloguj się"
+  },
+  "validation": {
+    "firstNameRequired": "Imię jest wymagane",
+    "firstNameInvalid": "Podaj poprawne imię (tylko litery, 2–30 znaków)",
+    "lastNameRequired": "Nazwisko jest wymagane",
+    "lastNameInvalid": "Podaj poprawne nazwisko (tylko litery, 2–30 znaków)",
+    "emailRequired": "Email jest wymagany",
+    "emailInvalid": "Podaj poprawny adres email",
+    "passwordRequired": "Hasło jest wymagane",
+    "passwordMin": "Hasło musi mieć co najmniej 6 znaków",
+    "confirmPasswordMismatch": "Hasła się nie zgadzają"
+  },
+  "error": {
+    "registration": "Błąd rejestracji",
+    "network": "Błąd sieci. Spróbuj ponownie."
+  },
+  "registerSuccess": {
+    "title": "Rejestracja zakończona pomyślnie!",
+    "message": "Możesz się teraz zalogować, używając swojego adresu email i hasła.",
+    "button": "Przejdź do logowania"
+  },
+  "unlogin": {
+    "title": "Jesteś zalogowany? Wyloguj się poniżej",
+    "button": "Wyloguj się"
+  },
+  "userProfile": {
+    "transactions": "⭐ Udanych transakcji: {{count}}",
+    "balance": "💰 Saldo: {{balance}} zł",
+    "about": "O mnie:",
+    "logout": "Wyloguj",
+    "editProfile": "Edytuj profil",
+    "users": "Użytkownicy",
+    "books": "Książki",
+    "history": "Historia",
+    "withdraw": "Wypłata",
+    "bookSectionTitle": "Książki użytkownika {{name}}",
+    "noBooks": "Użytkownik nie dodał jeszcze książek.",
+    "price": "{{price}} zł",
+    "priceWithShipping": "{{price}} zł z wysyłką",
+    "errors": {
+      "userNotFound": "Użytkownik nie znaleziony",
+      "fetchBooks": "Nie udało się pobrać książek użytkownika"
+    }
+  },
+  "editProfile": {
+    "header": "Edytuj profil",
+    "fields": {
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "balance": "Saldo",
+      "rating": "Rating",
+      "description": "Opis"
+    },
+    "buttons": {
+      "changePhoto": "Zmień zdjęcie",
+      "save": "Zapisz"
+    },
+    "noFileChosen": "Nie wybrano pliku",
+    "snackbar": {
+      "success": "Profil zaktualizowany",
+      "error": "Wystąpił błąd podczas aktualizacji profilu"
+    },
+    "errors": {
+      "descriptionRequired": "Opis jest wymagany",
+      "firstNameRequired": "Imię jest wymagane",
+      "firstNameInvalid": "Podaj poprawne imię (2–30 liter, zaczyna wielką literą)",
+      "lastNameRequired": "Nazwisko jest wymagane",
+      "lastNameInvalid": "Podaj poprawne nazwisko (2–30 liter, zaczyna wielką literą)",
+      "balanceNumeric": "Saldo musi być liczbą",
+      "balanceNonNegative": "Saldo nie może być ujemne",
+      "ratingInteger": "Rating musi być liczbą całkowitą",
+      "ratingNonNegative": "Rating nie może być ujemny"
+    }
+  },
+  "addBook": {
+    "header": "Wystaw książkę",
+    "fields": {
+      "title": "Tytuł",
+      "description": "Opis",
+      "condition": "Stan książki",
+      "author": "Autor",
+      "price": "Cena (zł)"
+    },
+    "buttons": {
+      "chooseFile": "Wybierz zdjęcie",
+      "submit": "Dodaj"
+    },
+    "noFileChosen": "Nie wybrano pliku",
+    "snackbar": {
+      "success": "Książka została dodana",
+      "error": "Błąd serwera"
+    },
+    "errors": {
+      "titleRequired": "Tytuł jest wymagany",
+      "descriptionRequired": "Opis jest wymagany",
+      "conditionRequired": "Stan książki jest wymagany",
+      "authorRequired": "Autor jest wymagany",
+      "priceRequired": "Cena jest wymagana",
+      "priceInvalid": "Podaj poprawną cenę",
+      "pricePrecision": "Maksymalnie dwie cyfry po przecinku",
+      "fileRequired": "Wybierz zdjęcie książki"
+    }
+  },
+  "bookPage": {
+    "addedBy": "Dodane przez:",
+    "price": "{{price}} zł",
+    "priceWithShipping": "{{price}} zł z wysyłką",
+    "protectionIncluded": "Zawiera ochronę Kupujących",
+    "field": {
+      "author": "Autor"
+    },
+    "shippingLabel": "Wysyłka",
+    "shippingFrom": "od {{price}} zł",
+    "protectionFeeTitle": "Opłata za Ochronę Kupujących",
+    "protectionFeeDescription": "Każdy zakup dokonany za pomocą przycisku „Kup teraz” jest objęty naszą Ochroną Kupujących podlegającą dodatkowej opłacie.",
+    "otherBooksTitle": "Inne książki użytkownika {{name}}",
+    "buttons": {
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "buyNow": "Kup teraz",
+      "cancel": "Anuluj"
+    },
+    "dialog": {
+      "deleteTitle": "Potwierdzenie usunięcia",
+      "deleteDescription": "Czy na pewno chcesz usunąć tę książkę? Tej operacji nie można cofnąć.",
+      "deleteError": "Nie udało się usunąć książki"
+    }
+  },
+  "booksPage": {
+    "searchResults": "Wyniki wyszukiwania dla „{{search}}”",
+    "availableBooks": "Dostępne książki",
+    "price": "{{price}} zł",
+    "priceWithShipping": "{{price}} zł z wysyłką"
+  },
+  "editBook": {
+    "header": "Edytuj książkę",
+    "fields": {
+      "title": "Tytuł",
+      "description": "Opis",
+      "condition": "Stan książki",
+      "author": "Autor",
+      "price": "Cena (zł)"
+    },
+    "buttons": {
+      "chooseNewPhoto": "Wybierz nowe zdjęcie (opcjonalnie)",
+      "saveChanges": "Zapisz zmiany"
+    },
+    "noFileChosen": "Nie wybrano pliku",
+    "snackbar": {
+      "success": "Książka zaktualizowana",
+      "error": "Wystąpił błąd podczas aktualizacji książki"
+    },
+    "errors": {
+      "titleRequired": "Tytuł jest wymagany",
+      "descriptionRequired": "Opis jest wymagany",
+      "conditionRequired": "Stan książki jest wymagany",
+      "authorRequired": "Autor jest wymagany",
+      "priceRequired": "Cena jest wymagana",
+      "priceInvalid": "Podaj poprawną cenę",
+      "pricePrecision": "Maksymalnie dwie cyfry po przecinku"
+    }
+  },
+  "withdraw": {
+    "header": "Wypłata środków",
+    "balance": "Saldo: {{balance}} zł",
+    "fields": {
+      "accountNumber": "Numer konta",
+      "amount": "Kwota do wypłaty"
+    },
+    "buttons": {
+      "withdraw": "Wypłata"
+    },
+    "historyTitle": "Historia wypłat",
+    "history": {
+      "field": {
+        "date": "Data:",
+        "accountNumber": "Numer konta:",
+        "amount": "Kwota:"
+      }
+    },
+    "errors": {
+      "accountNumberLength": "Numer konta musi być 26 cyfr",
+      "amountInvalid": "Podaj poprawną kwotę większą niż 0",
+      "amountExceeds": "Kwota nie może przekroczyć salda",
+      "amountPrecision": "Maksymalnie dwie cyfry po przecinku"
+    },
+    "alert": {
+      "failure": "Nie udało się zrealizować wypłaty"
+    }
+  },
+  "orderPage": {
+    "loading": "Ładowanie…",
+    "summary": {
+      "header": "Podsumowanie zamówienia",
+      "condition": "Stan: {{condition}}",
+      "price": "{{price}} zł",
+      "shipping": "+ {{price}} zł dostawa",
+      "total": "Razem: {{total}} zł"
+    },
+    "section": {
+      "personalInfo": "Dane osobowe",
+      "shippingAddress": "Adres dostawy",
+      "payment": "Płatność"
+    },
+    "fields": {
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "email": "Email",
+      "phone": "Numer telefonu",
+      "city": "Miasto",
+      "postalCode": "Kod pocztowy",
+      "street": "Ulica",
+      "streetNumber": "Nr domu",
+      "apartmentNumber": "Nr mieszkania (opcjonalnie)",
+      "cardNumber": "Numer karty",
+      "expirationDate": "MM/RR",
+      "cvc": "CVC"
+    },
+    "buttons": {
+      "submit": "Zamów i zapłać"
+    },
+    "errors": {
+      "firstName": "Podaj imię",
+      "lastName": "Podaj nazwisko",
+      "email": "Niepoprawny email",
+      "phone": "Numer telefonu musi mieć 9–15 cyfr",
+      "city": "Podaj miasto",
+      "postalCode": "Kod pocztowy w formacie XX-XXX",
+      "street": "Podaj ulicę",
+      "streetNumber": "Podaj numer domu",
+      "cardNumber": "Numer karty to 16 cyfr",
+      "expirationDate": "Termin w formacie MM/RR",
+      "cvc": "CVC to 3 lub 4 cyfry"
+    },
+    "alert": {
+      "submitError": "Błąd składania zamówienia"
+    }
+  },
+  "orderSuccess": {
+    "header": "Kupiono książkę",
+    "section": {
+      "bookInfo": "Informacje o książce",
+      "shipping": "Dostawa"
+    },
+    "field": {
+      "bookTitle": "Tytuł książki:",
+      "bookCondition": "Stan książki:",
+      "totalPrice": "Cena z dostawą:",
+      "firstName": "Imię:",
+      "lastName": "Nazwisko:",
+      "city": "Miasto:",
+      "postalCode": "Kod pocztowy:",
+      "street": "Ulica:",
+      "apartmentNumber": "Lokal:"
+    },
+    "none": "Brak"
+  },
+  "transactionsPage": {
+    "boughtTitle": "Kupione książki",
+    "boughtTitleForUser": "Kupione książki użytkownika {{userId}}",
+    "noBought": "Brak kupionych książek.",
+    "soldTitle": "Sprzedane książki",
+    "soldTitleForUser": "Sprzedane książki użytkownika {{userId}}",
+    "noSold": "Brak sprzedanych książek.",
+    "section": {
+      "bookInfo": "Informacje o książce",
+      "shipping": "Dostawa"
+    },
+    "field": {
+      "bookTitle": "Tytuł książki:",
+      "bookCondition": "Stan książki:",
+      "priceWithShipping": "Cena z dostawą:",
+      "date": "Data:",
+      "firstName": "Imię:",
+      "lastName": "Nazwisko:",
+      "city": "Miasto:",
+      "postalCode": "Kod pocztowy:",
+      "street": "Ulica:",
+      "apartment": "Lokal:"
+    },
+    "none": "Brak"
+  },
+  "userManagement": {
+    "header": "Zarządzanie użytkownikami",
+    "searchPlaceholder": "Szukaj użytkownika",
+    "rating": "⭐ {{rating}}",
+    "balance": "💰 {{balance}} zł",
+    "buttons": {
+      "editProfile": "Edytuj profil",
+      "history": "Historia"
+    }
+  },
+  "bookManagement": {
+    "header": "Zarządzanie książkami",
+    "searchPlaceholder": "Szukaj po tytule",
+    "price": "{{price}} zł",
+    "priceWithShipping": "{{price}} zł z wysyłką",
+    "buttons": {
+      "edit": "Edytuj",
+      "delete": "Usuń"
+    },
+    "dialog": {
+      "deleteTitle": "Potwierdzenie usunięcia",
+      "deleteDescription": "Czy na pewno chcesz usunąć tę książkę? Tej operacji nie można cofnąć.",
+      "cancel": "Anuluj",
+      "delete": "Usuń",
+      "deleteError": "Nie udało się usunąć książki"
+    }
+  },
+  "searchField": {
+    "placeholder": "Wyszukaj książek"
+  },
+  "header": {
+    "yourProfile": "Twój profil",
+    "listItem": "Wystaw",
+    "auth": "Zarejestruj się | Zaloguj się"
+  }
+}

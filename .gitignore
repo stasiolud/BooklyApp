@@ -1,0 +1,69 @@
+# Java / Spring Boot
+/backend/backend/target/
+/backend/backend/.idea/
+/backend/backend/.mvn/
+
+# Node / React
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+
+# Ogólne
+.DS_Store
+*.log
+
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+
+/backend/backend/HELP.md
+/backend/backend/target/
+/backend/backend/.mvn/wrapper/maven-wrapper.jar
+/backend/backend/!**/src/main/**/target/
+/backend/backend/!**/src/test/**/target/
+
+### STS ###
+/backend/backend/.apt_generated
+/backend/backend/.classpath
+/backend/backend/.factorypath
+/backend/backend/.project
+/backend/backend/.settings
+/backend/backend/.springBeans
+/backend/backend/.sts4-cache
+
+### IntelliJ IDEA ###
+/backend/backend/.idea
+/backend/backend/*.iws
+/backend/backend/*.iml
+/backend/backend/*.ipr
+
+### NetBeans ###
+/backend/backend/nbproject/private/
+/backend/backend/nbbuild/
+/backend/backend/dist/
+/backend/backend/nbdist/
+/backend/backend/.nb-gradle/
+/backend/backend/build/
+/backend/backend!**/src/main/**/build/
+/backend/backend!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
